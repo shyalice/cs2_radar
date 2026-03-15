@@ -1,0 +1,25 @@
+# CMake
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+cmake-build-debug
+
+# CLion
+.idea/
+*.iml
+
+# macOS
+__MACOSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# compiled
+*.o
+*.a
+*.dylib
+*.exe
