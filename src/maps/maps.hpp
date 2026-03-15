@@ -42,6 +42,8 @@ namespace alice
             { "de_vertigo", { -3168.f, 1762.f, 4.f } },
             { "<empty>", { 0.f, 0.f, 1.f } } };
 
+        static Vector3 parseCoords( const std::string& txt_path );
+
     public:
         CMaps( );
         ~CMaps( );

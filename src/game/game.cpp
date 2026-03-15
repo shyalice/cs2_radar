@@ -90,7 +90,7 @@ void CGame::updatePlayersData( )
         bool const self = ( pawn == localPlayerPawn );
         bool const dead = ( health <= 0 || health > 100 );
 
-        if ( !dead )
+        if ( dead )
             continue;
 
         playersList[ playersCount++ ] = { health, team, self, position };
